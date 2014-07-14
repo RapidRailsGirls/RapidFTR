@@ -22,7 +22,7 @@ FactoryGirl.define do
     initialize_with { new(attributes) }
 
     after(:build) do |child, factory|
-      Child.stub(:get).with(child.id).and_return(child)
+      allow(Child).to receive(:get).with(child.id).and_return(child)
     end
   end
 
