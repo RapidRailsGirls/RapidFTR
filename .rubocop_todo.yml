@@ -32,11 +32,6 @@ Lint/DefEndAlignment:
   Enabled: false
 
 # Offense count: 1
-# Cop supports --auto-correct.
-Lint/DeprecatedClassMethods:
-  Enabled: false
-
-# Offense count: 1
 Lint/HandleExceptions:
   Enabled: false
 
